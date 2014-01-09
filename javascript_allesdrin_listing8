@@ -1,3 +1,5 @@
+//Listing 8
+
 // Objekte sind assoziative Arrays ("Dictionaries")
 
 alert(myKonto.inhaber);
