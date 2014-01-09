@@ -1,0 +1,17 @@
+// Objekte sind assoziative Arrays ("Dictionaries")
+
+alert(myKonto.inhaber);
+alert(myKonto["inhaber"]);
+
+alert(myKonto.getGuthaben());
+alert(myKonto["getGuthaben"]());
+var punkte = {};
+
+punkte["max"] = 99;
+punkte["susi"] = 111;
+
+alert(punkte["max"]);
+
+for (var key in punkte) {
+    alert(key + ": " + punkte[key]);
+}
